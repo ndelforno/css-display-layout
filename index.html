@@ -3,37 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>CSS layout</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
   <body>
     <header>
       <h1>Bitmaker Photo Gallery</h1>
-      <a href="#">Home</a>
-      <a href="#">Add a photo</a>
-      <a href="#">About</a>
+      <div class ="menu">
+        <a href="#">Home</a>
+        <a href="#">Add a photo</a>
+        <a href="#">About</a>
+      </div>
     </header>
     <main>
-      <h2>There are 6 photos</h2>
-      <img src="" alt="">
-      <input type="Edit" name="Edit" value="Edit">
-      <input type="text" name="" value="">
-      <img src="" alt="">
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
-      <img src="" alt="">
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
-      <img src="" alt="">
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
-      <img src="" alt="">
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
-      <img src="" alt="">
-      <input type="text" name="" value="">
-      <input type="text" name="" value="">
+      <h2>There are <span>6</span> photos</h2>
+      <div class="tile">
+        <img src="https://unsplash.it/400/500?random=1234569" alt="">
+        <div class="imgbutton">
+          <a href="#">Edit</a>
+          <a href="#">Delete</a>
+        </div>
+      </div>
+      <div class="tile">
+        <img src="https://unsplash.it/400/500?random=1234567" alt="">
+        <div class="imgbutton">
+          <a href="#">Edit</a>
+          <a href="#">Delete</a>
+        </div>
+      </div>
+      <div class="tile">
+        <img src="https://unsplash.it/400/500?random=1234562" alt="">
+        <div class="imgbutton">
+          <a href="#">Edit</a>
+          <a href="#">Delete</a>
+        </div>
+      </div>
+      <div class="tile">
+        <img src="https://unsplash.it/400/500?random=1234568" alt="">
+        <div class="imgbutton">
+          <a href="#">Edit</a>
+          <a href="#">Delete</a>
+        </div>
+      </div>
+      <div class="tile">
+        <img src="https://unsplash.it/400/500?random=1234563" alt="">
+        <div class="imgbutton">
+          <a href="#">Edit</a>
+          <a href="#">Delete</a>
+        </div>
+      </div>
+      <div class="tile">
+        <img src="https://unsplash.it/400/500?random=1234565" alt="">
+        <div class="imgbutton">
+          <a href="#">Edit</a>
+          <a href="#">Delete</a>
+        </div>
+      </div>
     </main>
     <footer>
-      <p>Bitmaker 2018</p>
+      <p>&copy; Bitmaker 2018</p>
     </footer>
     </body>
 </html>

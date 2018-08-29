@@ -1,0 +1,50 @@
+h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.menu {
+  margin: auto;
+  width: fit-content;
+}
+.menu a{
+  color:white;
+  background-color: lightgrey;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+main{
+  margin:
+}
+h2 {
+  background-color: #76f2d5;
+  font-weight: normal;
+  padding: 20px;
+}
+span{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color:Yellow;
+}
+p{
+  color:white;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}
+.tile{
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+img{
+  margin:0;
+}
+.imgbutton {
+  background-color: Yellow;
+  padding: 5px;
+}
