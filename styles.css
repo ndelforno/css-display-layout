@@ -1,7 +1,13 @@
-h1{
-  background-color: black;
+
+html{
+  box-sizing: border-box;
+}
+  h1{
+  background-color: rgba(0,0,0,0.5);
   color: white;
   text-align: center;
+  margin-bottom: 8px;
+  padding:10px;
 }
 .menu {
   margin: auto;
@@ -16,7 +22,8 @@ h1{
   font-weight: bold;
 }
 main{
-  margin:
+  margin:20px;
+  display: block;
 }
 h2 {
   background-color: #76f2d5;
@@ -36,15 +43,13 @@ p{
   font-size: 10px;
 }
 .tile{
-  text-align: center;
-  width: 33%;
   display: inline-block;
   margin-bottom: 5px;
-}
-img{
-  margin:0;
+  margin:auto;
 }
 .imgbutton {
   background-color: Yellow;
   padding: 5px;
+  box-sizing: content-box;
+  text-align: center;
 }
